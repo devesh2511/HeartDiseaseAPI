@@ -9,10 +9,10 @@ The API uses a Logistic Regression Model from scikit-learn trained on the [Frami
 
 The model achieved a test accuracy of around 88%.
 
-It is deployed on [here](https://heart-sn1y.onrender.com/).
+It is deployed on [here](https://heartapi-dev.onrender.com/).
 
 View the Jupyter notebook
-[here](https://github.com/devesh2511/HeartDiseasePredictionAPI/blob/master/model/HeartDisease.ipynb)
+[here](https://github.com/devesh2511/HeartDiseaseAPI/blob/master/model/HeartDisease.ipynb)
 
 ## Predict endpoint
 
@@ -20,7 +20,7 @@ View the Jupyter notebook
 - Returns a binary prediction (0 or 1) and probability as well.
 
 	### Sample query
-    	https://heart-sn1y.onrender.com/predict?age=31&sex=1&cigs=5&chol=230&sBP=280&dia=0&dBP=90&gluc=87&hRate=84
+    	https://heartapi-dev.onrender.com/predict?age=31&sex=1&cigs=5&chol=230&sBP=280&dia=0&dBP=90&gluc=87&hRate=84
 
 	### Sample output
 
@@ -51,4 +51,4 @@ View the Jupyter notebook
 ## /model endpoint
 - Returns the model details such as intercept and coefficients.
 
-		https://https://heart-sn1y.onrender.com/model
+		https://heartapi-dev.onrender.com/models
